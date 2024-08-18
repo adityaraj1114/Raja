@@ -11,7 +11,7 @@ export const Share = () => {
   const sendWhatsAppMessage = (event) => {
     event.preventDefault(); // Prevent form submission
 
-    const portfolioLink = "https://chipper-brigadeiros-8c9a90.netlify.app/"; // Replace with your actual portfolio link
+    const portfolioLink = "https://shivamfancycracker.netlify.app/"; // Replace with your actual portfolio link
     const message = `Check out my Shop Details: ${portfolioLink}`;
 
     // Construct the WhatsApp URL
