@@ -1,0 +1,23 @@
+.scannerContainer {
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: red; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* z-index: 5; */
+    /* padding-right: 40%; */
+}
+
+.scannerCard {
+    /* height: 500PX; */
+    /* width: 300PX; */
+}
+
+.scannerCard h2 {
+    /* color: red; */
+}

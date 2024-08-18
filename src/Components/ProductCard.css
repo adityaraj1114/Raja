@@ -1,0 +1,198 @@
+.productContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 5%; */
+    margin: 0 5% 0 5%;
+  }
+  
+  .productCard {
+    /* margin-bottom: 5%; */
+    margin-left: 3%;
+    padding: 2%;
+    margin-top: 4%;
+    height: 100%;
+    width: 88vw;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, -10%);
+  
+    background: linear-gradient(
+      90deg,
+      rgb(249 248 138) 1%,
+      rgb(243 225 187 / 90%) 26%,
+      rgb(241 208 249) 50%,
+      rgb(221 184 244 / 95%) 78%,
+      rgb(130 154 243 / 98%) 100%
+    );
+  }
+  
+  /* .profileImg {
+    background-color: rgb(10, 10, 10);
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    transform: translate(0, -25%);
+    margin-bottom: -15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+  }
+  
+  .profileImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+  } */
+  
+  .productCard h2 {
+    color: black;
+    font-size: 8.2vw;
+    font-weight: 200;
+  }
+  
+  .productCard h3 {
+    color: black;
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 10px;
+    /* padding: 10px 0px; */
+  }
+  
+  .productCard p {
+    color: black;
+    font-size: 4.5vw;
+    line-height: 20%;
+  }
+  
+  .productDetails {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%x;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .productImg {
+    height: 50vw;
+    width: 90%;
+    border-radius: 40px;
+    /* background-color: rgb(127, 90, 158); */
+    background: linear-gradient(
+      90deg,
+      rgb(249 248 138) 1%,
+      rgb(243 225 187 / 90%) 26%,
+      rgb(241 208 249) 50%,
+      rgb(221 184 244 / 95%) 78%,
+      rgb(130 154 243 / 98%) 100%
+    );
+    padding: 10px;
+  }
+  
+  .productImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    object-fit: fill;
+    object-position: cover;
+    /* background-color: red; */
+  }
+  
+  .addContact {
+    transform: translate(0, 65%);
+  }
+  
+  .addContact button {
+    color: rgb(15, 15, 14);
+    background: rgb(244, 249, 127);
+    background: linear-gradient(
+      90deg,
+      rgba(244, 249, 127, 1) 0%,
+      rgba(248, 247, 204, 1) 25%,
+      rgba(225, 210, 247, 1) 49%,
+      rgba(214, 204, 255, 1) 80%,
+      rgba(190, 166, 253, 1) 100%
+    );
+    font-size: 6vw;
+    font-weight: 100;
+    border-radius: 40px;
+    padding: 5% 2%;
+    width: 50vw;
+    border: 2px solid black;
+    box-shadow: 0 -4px 19px 0 rgba(0, 0, 10, 1.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .productName {
+    /* display: flex; */
+    /* align-items: start; */
+    width: 100%;
+    height: auto;
+    /* text-wrap: nowrap; */
+  }
+  
+  .productName p {
+    padding-top: 6%;
+    font-size: 5.5vw;
+  }
+  
+  /* ----------------------------------------- */
+  
+  .priceMain {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .pricing {
+    /* padding-top: 5%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .price {
+    /* width: 50%; */
+    padding: 2% 5% 2% 0%;
+    line-height: 50px;
+  }
+
+  .addToCart {
+    /* width: 50%; */
+    padding: 2% 5% 2% 2%;
+  }
+
+  .price h3 {
+    display: flex;
+    gap: 15%;
+  }
+
+  .price span {
+    color: rgb(78, 76, 76);
+    text-decoration: line-through;
+  }
+
+  .addToCart button {
+    color: rgb(15, 15, 14);
+    background: rgb(244, 249, 127);
+    background: linear-gradient(90deg, rgba(244, 249, 127, 1) 0%, rgba(248, 247, 204, 1) 25%, rgba(225, 210, 247, 1) 49%, rgba(214, 204, 255, 1) 80%, rgba(190, 166, 253, 1) 100%);
+    font-size: 6vw;
+    font-weight: 100;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0 -4px 19px 0 rgba(0, 0, 10, 1.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
