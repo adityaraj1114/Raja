@@ -9,7 +9,7 @@ export const Scanner = () => {
     const shareData = {
         title: 'My Portfolio',
         text: 'Check out my portfolio here:',
-        url: 'https://adityaraj1114resume.netlify.app/',
+        url: 'https://shivamfancycracker.netlify.app/',
       };
     
       const handleShare = async () => {
