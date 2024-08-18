@@ -25,7 +25,7 @@ export const Container2 = () => {
 
           <div className="icons">
             <a
-              href="tel:${phoneNumber}"
+              href="tel:+918210012972"
               target="_blank"
               rel="noopener noreferrer"
               className="iconCard"
@@ -63,8 +63,8 @@ export const Container2 = () => {
         <div className="contactLinks">
           {/* -----------------------------------------------------------------------calling------------- */}
           <a
-            // href={`tel:+918210012972`}
-            href="tel:${phoneNumber}"
+            href="tel:+918210012972"
+            // href="tel:${phoneNumber}"
             target="_blank"
             rel="noopener noreferrer"
             className="phone"
