@@ -63,7 +63,7 @@ export const Container2 = () => {
         <div className="contactLinks">
           {/* -----------------------------------------------------------------------calling------------- */}
           <a
-            href={`tel:${phoneNumber}`}
+            href={`tel:+918210012972`}
             target="_blank"
             rel="noopener noreferrer"
             className="phone"

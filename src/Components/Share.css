@@ -62,7 +62,7 @@
 
 .shareCard h2 {
   font-size: 9vw;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 0cm;
 }
 
@@ -81,13 +81,13 @@
 
 .whatsApp p {
   font-size: 4vw;
-  font-weight: 100;
+  font-weight: 400;
   color: gray;
 }
 
 .whatsApp h3 {
   font-size: 6vw;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .shareIcons {
@@ -100,13 +100,13 @@
 
 .instagram p {
   font-size: 4vw;
-  font-weight: 100;
+  font-weight: 400;
   color: gray;
 }
 
 .instagram h3 {
   font-size: 6vw;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 /* ------------------------------------form--------------------------- */
@@ -123,7 +123,7 @@
   font-size: 6vw;
   line-height: 1cm;
   color: black;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 form {
@@ -132,6 +132,7 @@ form {
 
 form p {
   font-size: 4vw;
+  font-weight: 400;
 }
 
 input {
@@ -156,6 +157,7 @@ form button {
   padding: 2% 8%;
   margin: 8% 0;
   font-size: 7vw;
+  font-weight: 400;
   border-radius: 40px;
   border: none;
   background-color: black;

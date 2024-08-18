@@ -55,7 +55,7 @@
 .profile h2 {
   color: black;
   font-size: 8.2vw;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .profile h3 {
@@ -69,6 +69,7 @@
   color: black;
   font-size: 4.5vw;
   line-height: 20%;
+  font-weight: 400;
 }
 
 .profileDetails {
@@ -175,13 +176,13 @@ a {
 
 .phone p {
   font-size: 4vw;
-  font-weight: 100;
+  font-weight: 400;
   color: gray;
 }
 
 .phone h3 {
   font-size: 6vw;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 /* .phone button {

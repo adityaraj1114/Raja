@@ -4,19 +4,20 @@
     background-image: url(https://images.pexels.com/photos/7685988/pexels-photo-7685988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   } */
 
-  .headerInner {
-    padding: 2%;
-  }
+.headerInner {
+  padding: 2%;
+}
 
-  .menuOptions{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .menuOptions a{
-    /* color: var(--color-aqua); */
-    color: rgb(17, 224, 247);
-    font-size: 1.8vw;
-    text-decoration: none;
-  }
+.menuOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuOptions a {
+  /* color: var(--color-aqua); */
+  color: rgb(17, 224, 247);
+  font-size: 1.8vw;
+  text-decoration: none;
+  font-weight: 400;
+}

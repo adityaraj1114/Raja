@@ -19,6 +19,7 @@
 
 .full-size-container button {
     font-size: 6vw;
+    font-weight: 400;
     background-color: white;
     color: black;
     padding: 2% 4%;

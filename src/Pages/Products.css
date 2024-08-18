@@ -47,7 +47,7 @@
 
 .productHeading h2 {
   font-size: 9vw;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 0cm;
 }
 
@@ -82,7 +82,7 @@
     rgba(190, 166, 253, 1) 100%
   );
   font-size: 6vw;
-  font-weight: 100;
+  font-weight: 400;
   border-radius: 40px;
   padding: 5% 2%;
   width: 50vw;

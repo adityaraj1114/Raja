@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     /* margin: 5%; */
-    margin: 0 5% 0 5%;
+    margin: 0 5% 0 3%;
   }
   
   .productCard {
@@ -57,7 +57,8 @@
   .productCard h2 {
     color: black;
     font-size: 8.2vw;
-    font-weight: 200;
+    font-weight: 400;
+    
   }
   
   .productCard h3 {
@@ -71,6 +72,7 @@
   .productCard p {
     color: black;
     font-size: 4.5vw;
+    font-weight: 400;
     line-height: 20%;
   }
   
@@ -125,7 +127,7 @@
       rgba(190, 166, 253, 1) 100%
     );
     font-size: 6vw;
-    font-weight: 100;
+    font-weight: 400;
     border-radius: 40px;
     padding: 5% 2%;
     width: 50vw;
@@ -144,6 +146,7 @@
   .productName p {
     padding-top: 6%;
     font-size: 5.5vw;
+    font-weight: 400;
   }
   
   /* ----------------------------------------- */
@@ -177,11 +180,13 @@
   .price h3 {
     display: flex;
     gap: 15%;
+    font-weight: 400;
   }
 
   .price span {
     color: rgb(78, 76, 76);
     text-decoration: line-through;
+    font-weight: 400;
   }
 
   .addToCart button {
@@ -189,7 +194,7 @@
     background: rgb(244, 249, 127);
     background: linear-gradient(90deg, rgba(244, 249, 127, 1) 0%, rgba(248, 247, 204, 1) 25%, rgba(225, 210, 247, 1) 49%, rgba(214, 204, 255, 1) 80%, rgba(190, 166, 253, 1) 100%);
     font-size: 6vw;
-    font-weight: 100;
+    font-weight: 400;
     border-radius: 40px;
     padding: 10px 20px;
     width: 100%;

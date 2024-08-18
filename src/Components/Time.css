@@ -38,13 +38,13 @@
 .timings h3 {
     font-size: 4vw;
     color: grey;
-    /* font-weight: 600; */
-}
+    font-weight: 400;
+  }
 
 .timings p {
     font-size: 3.5vw;
     color: grey;
-    /* font-weight: 100; */
+  font-weight: 400;
 }
 
 /* ---------------------------------------------------------------- */
@@ -124,13 +124,13 @@
 
 .openingTime p {
   font-size: 4vw;
-  font-weight: 100;
+  font-weight: 400;
   color: gray;
 }
 
 .openingTime h3 {
   font-size: 6vw;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .email {

@@ -48,7 +48,7 @@
   
   .contactCard h2 {
     font-size: 9vw;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 0cm;
   }
   
@@ -67,11 +67,12 @@
   .contactDetails h3 {
     margin-top: 8%;
     font-size: 7vw;
-    font-weight: 100;
+    font-weight: 400;
   }
   
   .contactDetails p {
     font-size: 5vw;
+  font-weight: 400;
     color: grey;
   }
 
@@ -80,7 +81,7 @@
     color: aliceblue;
     background-color: black;
     font-size: 6vw;
-    font-weight: 200;
+    font-weight: 400;
     border-radius: 35px;
     padding: 2% 2%;
     width: 50%;
