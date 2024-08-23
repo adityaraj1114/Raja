@@ -27,5 +27,6 @@
     border-radius: 40px;
     top: 15%;
     right: 5%;
+    /* position: fixed; */
     /* transition: width 1s, height 1s; */
 }

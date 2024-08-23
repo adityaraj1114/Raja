@@ -8,6 +8,7 @@ import { Time } from "../Components/Time";
 import { Share } from "../Components/Share";
 import { Products } from "./Products";
 import { Scanner } from "../Scanner/Scanner";
+// import { ScannerPage } from "../Scanner/ScannerPage";
 
 
 export const Homepage = () => {
@@ -34,6 +35,8 @@ export const Homepage = () => {
       {/* <Time /> */}
 
       <Scanner />
+
+      {/* <ScannerPage /> */}
 
     </div>
   );

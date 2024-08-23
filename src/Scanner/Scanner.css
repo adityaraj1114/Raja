@@ -7,7 +7,7 @@
   bottom: 0;
   left: 10px;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   margin-bottom: 5%;
 }
 
@@ -17,8 +17,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 5%;
   /* background-color: aqua; */
-  padding: 2%;
+  /* padding: 2%; */
   border-radius: 40px;
   /* position: absolute; */
 
@@ -26,7 +27,7 @@
 }
 
 .scannerBox {
-  width: 60%;
+  width: 57%;
   display: flex;
   align-items: center;
   gap: 5%;
@@ -35,6 +36,7 @@
 
 .addToContact {
   width: 40%;
+  z-index: -1;
 }
 
 .addToContact a {
@@ -46,7 +48,7 @@
   align-items: center;
   justify-content: center;
   font-size: 10vw;
-  padding: 15px 15px 10px 15px;
+  padding: 15px 15px 6px 15px;
   color: rgb(255, 255, 255);
   background-color: black;
   border-radius: 50%;
@@ -64,6 +66,7 @@
   background-color: black;
   border-radius: 40px;
   border: 3px solid white;
+  /* display: contents; */
 }
 
 a p {
