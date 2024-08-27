@@ -33,7 +33,7 @@ export const ScannerPage = () => {
           <p>Add to Home Screen</p>
         </div>
 
-        <div className="addToHomeGallery">
+        <div className="addToGallery">
           <p>Add to Gallery</p>
         </div>
 

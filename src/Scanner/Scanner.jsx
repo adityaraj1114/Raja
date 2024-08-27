@@ -62,8 +62,6 @@ export const Scanner = () => {
                     <ion-icon name="close-outline"></ion-icon>
                   </button> 
                   <div className="scannerProfile">
-                    {/* <Logo /> */}
-
                     <div className="circularProfile">
                       <img src={ScannerImg} alt="Profile Image" />
                     </div>
@@ -79,12 +77,14 @@ export const Scanner = () => {
                     </div>
                   </div>
 
+                  <div className="addToHomeGallery">
                   <div className="addToHomeScreen">
                     <p>Add to Home Screen</p>
                   </div>
 
-                  <div className="addToHomeGallery">
+                  <div className="addToGallery">
                     <p>Add to Gallery</p>
+                  </div>
                   </div>
                 </div>
                 {/* <button className="cancelBtn">

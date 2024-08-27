@@ -10,7 +10,7 @@ export const Container1 = () => {
     <div>
       <div className="Container1">
 
-        {/* <Navbar /> */}
+        <Navbar />
 
         <div className="bannerProfile">
           <div className="contImg">

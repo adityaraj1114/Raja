@@ -28,6 +28,7 @@ export const Container2 = () => {
               href="tel:+918210012972"
               target="_blank"
               rel="noopener noreferrer"
+              style={{color: "lightblue"}}
               className="iconCard"
             >
               <span>
@@ -38,6 +39,7 @@ export const Container2 = () => {
             <a  href={`https://wa.me/${whatsappNumber.replace(/[^0-9]/g, "")}`}
             target="_blank"
             rel="noopener noreferrer"
+            style={{color: "#17de17"}}
              className="iconCard">
               <span>
                 <ion-icon name="logo-whatsapp"></ion-icon>
@@ -46,6 +48,7 @@ export const Container2 = () => {
 
             <a href={`mailto:${emailAddress}`}
             target="_blank"
+            style={{color: "red"}}
             rel="noopener noreferrer" className="iconCard">
               <span>
                 <ion-icon name="mail-outline"></ion-icon>

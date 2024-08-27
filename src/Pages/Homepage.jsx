@@ -8,18 +8,17 @@ import { Time } from "../Components/Time";
 import { Share } from "../Components/Share";
 import { Products } from "./Products";
 import { Scanner } from "../Scanner/Scanner";
+import { Navbar } from "../Components/Navbar";
 // import { ScannerPage } from "../Scanner/ScannerPage";
-
 
 export const Homepage = () => {
   return (
     <div className="homePage">
-      <div className="backgroundImage">
-
-      </div>
+      
+      <div className="backgroundImage"></div>
 
       <Container1 />
-      
+
       <About />
 
       <Contact />
@@ -37,7 +36,6 @@ export const Homepage = () => {
       <Scanner />
 
       {/* <ScannerPage /> */}
-
     </div>
   );
 };

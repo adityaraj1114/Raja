@@ -1,3 +1,5 @@
+/*   */
+
 .scannerPage {
     height: 100vh;
     width: 101vw;
@@ -5,14 +7,17 @@
     background-color: white;
     z-index: 0;
     position: relative;
-    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .scannerProfile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25% 5% 5% 5%;
+    padding: 3%;
     position: relative;
 }
 
@@ -65,13 +70,17 @@
     width: 100%;
 }
 
+.addToHomeGallery {
+    width: 100%;
+}
+
 .addToHomeScreen {
     padding: 1% 5%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-.addToHomeGallery {
+.addToGallery {
     padding: 1% 5%;
     border-bottom: 1px solid black;
 }
