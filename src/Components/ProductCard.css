@@ -22,15 +22,7 @@
     align-items: center;
     justify-content: center;
     transform: translate(0, -10%);
-  
-    background: linear-gradient(
-      90deg,
-      rgb(249 248 138) 1%,
-      rgb(243 225 187 / 90%) 26%,
-      rgb(241 208 249) 50%,
-      rgb(221 184 244 / 95%) 78%,
-      rgb(130 154 243 / 98%) 100%
-    );
+    background: var(--bg);
   }
   
   /* .profileImg {
@@ -92,14 +84,7 @@
     width: 95%;
     border-radius: 40px;
     /* background-color: rgb(127, 90, 158); */
-    background: linear-gradient(
-      90deg,
-      rgb(249 248 138) 1%,
-      rgb(243 225 187 / 90%) 26%,
-      rgb(241 208 249) 50%,
-      rgb(221 184 244 / 95%) 78%,
-      rgb(130 154 243 / 98%) 100%
-    );
+    background: var(--bg);
     padding: 5px;
     border: 1px solid black;
     box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

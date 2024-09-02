@@ -37,14 +37,7 @@
   .menuOptions {
     right: 20px;
     gap: 20px;
-    background: linear-gradient(
-      90deg,
-      rgb(249 248 138) 1%,
-      rgb(243 225 187 / 90%) 26%,
-      rgb(241 208 249) 50%,
-      rgb(221 184 244 / 95%) 78%,
-      rgb(130 154 243 / 98%) 100%
-    );
+    background: var(--bg);
     flex-direction: column;
     padding: 20px;
     z-index: 2000;
@@ -65,14 +58,7 @@
   .hemburger {
     text-align: center;
     color: black;
-    background: linear-gradient(
-      90deg,
-      rgb(249 248 138) 1%,
-      rgb(243 225 187 / 90%) 26%,
-      rgb(241 208 249) 50%,
-      rgb(221 184 244 / 95%) 78%,
-      rgb(130 154 243 / 98%) 100%
-    );
+    background: var(--bg);
     font-size: 8vw;
     right: 5px;
     border-radius: 10px;
